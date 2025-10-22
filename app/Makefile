@@ -36,4 +36,7 @@ jar:
 
 jar-dist: clean-build jar run-dist
 
+say-hello:
+	@echo "Hello, World!"
+
 .PHONY: build
