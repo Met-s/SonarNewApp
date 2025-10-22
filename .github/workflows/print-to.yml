@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          build-root-directory: app
-      - run: make install
-      - run: make say-hello
+
+      - name: Make
+        working-directory: app
+        run: make say-hello
