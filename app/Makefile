@@ -1,5 +1,7 @@
 GR = ./gradlew
 COMMAND ?= -h
+#shell: /usr/bin/bash
+SHELL := /bin/bash
 
 
 setup:
